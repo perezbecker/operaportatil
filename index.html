@@ -1,222 +1,701 @@
-<!doctype html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="es"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="es"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="es"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Le Carrousel, compagnie de théâtre</title>
-  <meta name="medium" content="multi"/>
-  <meta name="title" content="Le Carrousel, compagnie de théâtre"/>
-  <meta name="robots" content="FOLLOW">
-  <meta name="revisit-after" content="0.6">
-  <meta name="Rating" content="General">
-  <meta name="Language" content="es">
-  <meta name="distribution" content="Global">
-  <meta name="Copyright" content="1995-<br />
-<b>Warning</b>:  date() [<a href='function.date'>function.date</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/New_York' for 'EDT/-4.0/DST' instead in <b>/home/lecarrouse/domains/lecarrousel.net/public_html/includes/header.php</b> on line <b>13</b><br />
-2016 © Le Carrousel, compagnie de théâtre">
-  <meta name="Classification" content="Theatre">
-  <meta name="Description" content="Le Carrousel, compagnie de théâtre - Le Carrousel a créé plusieurs spectacles parmi les plus marquants de l'histoire du théâtre québécois pour jeunes publics. Fondée et dirigée par l'auteure Suzanne Lebeau et le metteur en scène Gervais Gaudreault, la compagnie a, depuis près de trente ans d'existence, produit une vingtaine de spectacles dont plus de la moitié ont fait l'objet de tournées et ont été présentés dans des festivals internationaux.">
-  <meta name="keywords" content="théâtre, compagnies, carrousel, le Carrousel, compagnie de théâtre, jeunes, publics, jeune public, Suzanne Lebeau, Gervais Gaudreault, théâtre jeune public, théâtre jeunesse, théâtre pour enfants, Québec, Canada, Canadiens, Canadiennes, Salvador, Petit Pierre, Petit Navire, Conte du jour et de la nuit, Ogrelet, Autoroute, enfants, spectacles, québec, québécois, tournées, scènes, théâtrographies, publications, auteurs, metteurs en scène, dramaturgies, jeunes publics, langages, scéniques, productions, prix, jeunesses, jeunes, masques, textes, contes, pièces, acteurs, actrices, écritures, dramaturges, traductions, ouvres, résidences, international, interprétations, ateliers, animations,  co-productions, représentations">
-  <meta name="author" content="www.lecarrousel.net">
-  <link rel="target_url" href="www.lecarrousel.net"/>
 
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-  <meta name="viewport" content="width=device-width, initial-scale = 0.3">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <meta property="og:title" content="Le Carrousel, compagnie de théâtre" />
-  <meta property="og:description" content="Le Carrousel, compagnie de théâtre - Le Carrousel a créé plusieurs spectacles parmi les plus marquants de l'histoire du théâtre québécois pour jeunes publics. Fondée et dirigée par l'auteure Suzanne Lebeau et le metteur en scène Gervais Gaudreault, la compagnie a, depuis près de trente ans d'existence, produit une vingtaine de spectacles dont plus de la moitié ont fait l'objet de tournées et ont été présentés dans des festivals internationaux." />
-  <meta property="og:image" content="http://www.lecarrousel.net/img/logo.png" />
+    <title>&Oacute;pera Port&aacutetil</title>
 
-  <script type="text/javascript" src="http://www.lecarrousel.net/js/libs/modernizr-2.5.3.min.js"></script>
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
 
-  <link rel="stylesheet" type="text/css" href="http://www.lecarrousel.net/js/ParallaxContentSlider/css/style2.css" />
-  <!--[if !IE]>-->
-  <link type="text/css" rel="stylesheet" media="only screen and (min-device-width: 768px) and (max-device-width: 0.624px)" href="http://www.lecarrousel.net/js/ParallaxContentSlider/css/style2-ipad.css" />
-  <!--<![endif]-->
+    <!-- Theme CSS -->
+    <link href="css/agency.min.css" rel="stylesheet">
 
-  <link rel="stylesheet" type="text/css" href="http://www.lecarrousel.net/js/nivo-slider/nivo-slider.css" />
-  <link rel="stylesheet" href="http://www.lecarrousel.net/js/nivo-gallery/nivo-gallery.css" type="text/css" media="screen" />
-
-  <link rel="stylesheet" type="text/css" href="http://www.lecarrousel.net/css/style.css">
-
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script type="text/javascript" src="http://www.lecarrousel.net/js/libs/jquery-1.7.2.min.js"><\/script>')</script>
-
-  <script type="text/javascript" src="http://www.lecarrousel.net/js/nivo-slider/jquery.nivo.slider.js"></script>
-  <script type="text/javascript" src="http://www.lecarrousel.net/js/libs/jquery.easing.1.3.js"></script>
-
-  <script type="text/javascript" src="http://www.lecarrousel.net/js/plugins.js"></script>
-  <script type="text/javascript" src="http://www.lecarrousel.net/js/script.js"></script>
-
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
-<body>
-  <div id="wrapper">
-    <header id="header" class="content home">
-      <a href="http://operaportatil.com" class="logo" title="Le Carrousel, compagnie de théâtre">Le Carrousel, compagnie de théâtre</a>
-      <div class="menu clearfix">
-        <ul>
-            <li ><a href="http://www.operaportatil.com/espectaculos" title="Espectáculos">Espectáculos</a></li>
-            <li ><a href="http://www.operaportatil.com/calendario" title="Calendario">Calendario</a></li>
-	        <li class="last "><a href="http://www.operaportatil.com/contacto" title="Contacto">Contacto</a></li>
-        </ul>
-      </div>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">&Oacute;pera Port&aacutetil</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Espect&aacute;culos</a>
+                    </li>
+<script>/*
+                    <li>
+                        <a class="page-scroll" href="#calendario">Calendario</a>
+                    </li>
+ */</script>
+                    <li>
+                        <a class="page-scroll" href="#about">Calendario</a>
+                    </li>
+<script>/*
+                    <li>
+                        <a class="page-scroll" href="#team">Team</a>
+                    </li>
+ */</script>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Slogan aqui!</div>
+                <div class="intro-heading">Mas slogan</div>
+                <!-- <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a> -->
+            </div>
+        </div>
     </header>
-    <div id="main">
 
-      <div id="home">
-      <div id="main-img" class="nivoSlider" >
-      				<img src="photos/vlarge/img_gato1.jpg" data-thumb="http://www.lecarrousel.net/photos/vsmall/img_1472658224.jpg"  alt="Image 01" />
-        			<img src="photos/vlarge/img_gato2.jpg" data-thumb="http://www.lecarrousel.net/photos/vsmall/img_1472658898.jpg"  alt="Image 02" />
-        			<img src="photos/vlarge/img_gato3.jpg" data-thumb="http://www.lecarrousel.net/photos/vsmall/img_1441725462.jpg"  alt="Image 03" />
-					<img src="photos/vlarge/img_gato3.jpg" data-thumb="http://www.lecarrousel.net/photos/vsmall/img_1441725462.jpg"  alt="Image 04" />
-					<img src="photos/vlarge/img_gato3.jpg" data-thumb="http://www.lecarrousel.net/photos/vsmall/img_1441725462.jpg"  alt="Image 05" />
-              </div>
-      <div id="da-slider" class="da-slider">
+<script>/*
 
-								<div class="da-slide">
-					<h2>TROIS PETITES SOEURS</h2>
-					<div class="da-img" style="margin-top:13px">
-										 <div class="infos">
-					   <h3 style="margin-bottom:0px;">
-					   Québec, France</h3><br />
-                                               <div class="dates" style="margin-left:0px;margin-top:0px">18 de octubre - 14 de marzo</div>
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Services</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">E-Commerce</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Responsive Design</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Web Security</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+ */</script>
 
-					   <!--<div class="desc">Théâtre de la Ville | 450 670-1616, Maison Théâtre | 514 288-7211, Théâtre de la Manivelle | +33 (0)3 20 26 26 84, Scène nationale | +33 (0)5 45 38 61 61 | Festival La tête dans les nuages</div>-->
-				   </div>
-					</div>
-				</div>
-								<div class="da-slide">
-					<h2>DES PIEDS ET DES MAINS</h2>
-					<div class="da-img" style="margin-top:13px">
-										 <div class="infos">
-					   <h3 style="margin-bottom:0px;">
-					   Québec, France</h3><br />
-                                               <div class="dates" style="margin-left:0px;margin-top:0px">17 de noviembre - 6 de mayo</div>
+    <!-- Espectaculos Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Espect&aacute;culos</h2>
+                    <h3 class="section-subheading text-muted">Choro mareador</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/apoeida.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Apoeida</h4>
+                        <p class="text-muted">La abeja reina quiere miel</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Startup Framework</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Treehouse</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/golden.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Golden</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/escape.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Escape</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Dreams</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-					   <!--<div class="desc">Parole de diffuseurs, parole d'artistes - Salle Albert-Dumouchel, Festival Les Coups de Théâtre | 514 499-2929, Festival Petits et Grands, Le Tarmac | +33 (0)1 40 31 20 96</div>-->
-				   </div>
-					</div>
-				</div>
-								<div class="da-slide">
-					<h2>GRETEL Y HANSEL</h2>
-					<div class="da-img" style="margin-top:13px">
-										 <div class="infos">
-					   <h3 style="margin-bottom:0px;">
-					   Québec, Belgique, France, Espagne, Canada</h3><br />
-                                               <div class="dates" style="margin-left:0px;margin-top:0px">19 de noviembre - 30 de abril</div>
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Calendario</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2009-2011</h4>
+                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>March 2011</h4>
+                                    <h4 class="subheading">An Agency is Born</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>December 2012</h4>
+                                    <h4 class="subheading">Transition to Full Service</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>July 2014</h4>
+                                    <h4 class="subheading">Phase Two Expansion</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>Be Part
+                                    <br>Of Our
+                                    <br>Story!</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+<script>/*
+    <!-- Team Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Our Amazing Team</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Kay Garland</h4>
+                        <p class="text-muted">Lead Designer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Larry Parker</h4>
+                        <p class="text-muted">Lead Marketer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Diana Pertersen</h4>
+                        <p class="text-muted">Lead Developer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-					   <!--<div class="desc">Festival Les Coups de Théâtre | 514 499-2929, Le Manège - Théâtre de Mons | +32 (0) 65 33 55 80, Théâtre de Villefranche | +33 (0)4 74 68 02 89, Festival Teatralia, Manitoba Theatre for Young People - Cargill Theatre | 204 942-8898</div>-->
-				   </div>
-					</div>
-				</div>
-								<div class="da-slide">
-					<h2>PETIT PIERRE</h2>
-					<div class="da-img" style="margin-top:13px">
-										 <div class="infos">
-					   <h3 style="margin-bottom:0px;">
-					   France</h3><br />
-                                               <div class="dates" style="margin-left:0px;margin-top:0px">24 de enero - 3 de febrero</div>
+    <!-- Clients Aside -->
+    <aside class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside>
+ */</script>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact Us</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
-					   <!--<div class="desc">La Coursive - Scène nationale | Théâtre Verdière | +33 (0)5 46 51 54 02, L'Échiquier | +33 (0)2 51 61 46 10, Théâtre Pierre Barouh - Espace Herbauges | +33 (0)2 51 66 95 41</div>-->
-				   </div>
-					</div>
-				</div>
-								<div class="da-slide">
-					<h2>CUENTOS DE NIñOS REALES</h2>
-					<div class="da-img" style="margin-top:13px">
-										 <div class="infos">
-					   <h3 style="margin-bottom:0px;">
-					   France</h3><br />
-                                               <div class="dates" style="margin-left:0px;margin-top:0px">6 de junio - 12 de junio</div>
-
-					   <!--<div class="desc">Les Tréteaux de Haute Alsace | Théâtre de la Sinne | +33 (0)3 86 66 06 72</div>-->
-				   </div>
-					</div>
-				</div>
-
-			</div>
-			<div class="intro content2">
-			   <p style="text-align: justify;">Reivindicando la necesidad de un verdadero encuentro art&iacute;stico, el Carrousel sit&uacute;a la pregunta &laquo;&iquest;Qu&eacute; decir a los ni&ntilde;os?&raquo; en el centro de su proceso de creaci&oacute;n y prosigue una reflexi&oacute;n profunda sobre la autocensura del artista ante el p&uacute;blico joven. Bas&aacute;ndose en un trabajo de investigaci&oacute;n que empuja l&iacute;mites y fronteras, los fundadores <a href="http://www.lecarrousel.net/es/compania/suzanne_lebeau">Suzanne Lebeau</a> y <a href="http://www.lecarrousel.net/es/compania/gervais_gaudreault">Gervais Gaudreault</a> desplegaron su pasi&oacute;n para establecer un repertorio de obras originales consideradas, en Quebec y en el extranjero, como hitos en la historia del teatro para p&uacute;blico joven.</p>
-<p style="text-align: justify;" align="justify">Hace mas de 40 a&ntilde;os que el Carrousel trata de derribar las separaciones entre p&uacute;blicos y entre pr&aacute;cticas, con la convicci&oacute;n de que un teatro que se dirige a los ni&ntilde;os tiene que interpelar y desestabilizar tambi&eacute;n a los adultos. Esta visi&oacute;n singular de la infancia y del arte es defendida ahora por <a href="http://www.lecarrousel.net/es/compania/artista">Marie-Eve Huot</a> que se une a <a href="http://www.lecarrousel.net/es/compania/gervais_gaudreault">Gervais Gaudreault</a> en la codirecci&oacute;n art&iacute;stica de la compa&ntilde;&iacute;a. Esta transmisi&oacute;n es una ventana que se abre al futuro y ser&aacute; garant&iacute;a de una tradici&oacute;n a transcender para que haya continuidad y evoluci&oacute;n de la historia.</p>
-<div id="line">&nbsp;</div>
-<p style="text-align: center;" align="justify">73 GIRAS INTERNACIONALES | 26 CREACIONES | 81 FESTIVALES INTERNACIONALES</p>
-<p style="text-align: center;">4500 FUNCIONES | 1 000 000 DE ESPECTADORES</p>			</div>
-
-</div>
-<script type="text/javascript" src="http://www.lecarrousel.net/js/nivo-slider/jquery.nivo.slider.js"></script>
-<script type="text/javascript" src="http://www.lecarrousel.net/js/ParallaxContentSlider/js/jquery.cslider.js"></script>
-<script type="text/javascript">
-	$(function() {
-	  $('#main-img').nivoSlider({
-      effect: 'fade',
-      slices : 1,
-      animSpeed: 1000,
-	  pauseTime: 5000,
-      manualAdvance:true,
-      controlNav: true,
-      controlNavThumbs: false,
-      pauseOnHover: false,
-      prevText: '',
-      nextText: ''
-    });
-
-		$('#da-slider').cslider({
-			autoplay	: true,
-			bgincrement	: 50
-		});
-
-	});
-	$(window).bind('resize', function() {
-	console.log($(".content").width());
-	if($(".content").width() <= 1000) {
-	$('.da-slide h2').css("font-size", "55px");
-	$('.da-slide h2').css("line-height", "60px");
-	} else {
-	console.log($(".content").width());
-	$('.da-slide h2').css("font-size", "55px");
-	$('.da-slide h2').css("line-height", "60px");
-	}
-	});
-
-</script>
-    </div>
-    <footer id="footer" class="content2">
-
- <div class="copyrights">2014  © Le Carrousel, compagnie de théâtre</div>
- <div class="actions">
-    <a href="http://www.lecarrousel.net/fr/" >FR</a> /
-    <a href="http://www.lecarrousel.net/en/" >EN</a> /
-    <a href="http://www.lecarrousel.net/es/" class="active">ES</a>
-    <a href="http://www.canadahelps.org/CharityProfilePage.aspx?CharityID=22362" class="donation" target="_blank">Faire un don</a>
-    <a href="https://vimeo.com/channels/218063" class="social vimeo" target="_blank">Vimeo</a>
-    <a href="http://fr-ca.facebook.com/pages/Le-Carrousel-compagnie-de-th%C3%A9%C3%A2tre/240052166121571" class="social fb" target="_blank">Facebook</a>
- </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Your Website 2016</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
-  </div>
 
-  <script type="text/javascript">
-    $(document).ready( function() {
-      $(".menu li").hover(
-          function () {
-            if(!$(this).hasClass("active")) {
-              $(this).find("a").stop().animate({ 'padding-top' : 80 }, 300, 'easeOutSine');
-            }
-          },
-          function () {
-            if(!$(this).hasClass("active")) {
-              $(this).find("a").stop().animate({ 'padding-top' : 60 }, 400, 'easeInSine');
-            }
-          }
-        );
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
 
-    });
-  </script>
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Apoeida</h2>
+                                <p class="item-intro text-muted">La abeja reina quiere miel</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/apoeida.jpg" alt="">
+                                <p>Apoidea, breve &oacute;pera hexagonal en seis episodios, narra la vida de una reina condenada a cumplir un papel que nunca eligi&oacute;. Vi&eacute;ndose enclaustrada en un palacio, predestinada a asumir una misi&oacute;n que le fue dada, se limita a garantizar la continuidad de su linaje y del orden social establecido. Y lo hace muy a su pesar. La historia est&aacute; inspirada en las etapas m&aacute;s importantes de la vida de una abeja reina. (Apoidea es el nombre de la familia de insectos himen&oacute;pteros a los que pertenecen las abejas.)</p>
+                                <br>
+                                    <div style="text-align: center"> <iframe width="560" height="315" src="https://www.youtube.com/embed/LnohSvRW4rE" frameborder="0" allowfullscreen></iframe></div>
+                                    <strong>Apoidea en Santo Domingo, 30 Festival del Centro Hist&oacute;rico de la Ciudad de M&eacute;xico</strong>
+                                <br>
+                                <ul class="list-inline">
+                                    <li>Fechas: Julio - Agosto 2016</li>
+                                    <!-- <li>Client: Round Icons</li> -->
+                                    <!-- <li>Categoria: Graphic Design</li> -->
+                                </ul>
+                                <p align="left">Compositor y director musical: Jos&eacute; Miguel Delgado<br>
+                                   Libreto: Germ&aacute;n A. Panarisi y Jos&eacute; Miguel Delgado<br>
+                                   Letras adicionales: Mar&iacute;a del Carmen Azor&iacute;n<br>
+                                   Direcci&oacute;n esc&eacute;nica: Jesusa Rodr&iacute;guez<br>
+                                   &nbsp;<br>
+                                   Reina (mezzo-soprano): Catalina Pereda<br>
+                                   Esp&iacute;ritu del Reino (narrador): Leonardo Ortizgris<br>
+                                   Abejas y z&aacute;nganos: Alejandro Camacho y Carlos Brown<br>
+                                   &nbsp;<br>
+                                   <strong>Ensamble:</strong><br>
+                                   Vincent Touzet, flauta<br>
+                                   Pablo Ram&iacute;rez, clarinete<br>
+                                   Haroldo de Le&oacute;n, viol&iacute;n<br>
+                                   Natalia P&eacute;rez Turner, cello<br>
+                                   C&eacute;sar Castellanos, guitarra<br>
+                                   Charly Daniels, percusiones<br>
+                                   &nbsp;<br>
+                                   Realizador de escenograf&iacute;a: Carlos Brown<br>
+                                   Benjam&iacute;n Mac&iacute;as, producci&oacute;n y escenograf&iacute;a<br>
+                                   Mariana Gand&iacute;a, vestuarista y maquillista<br>
+                                   Diego V&aacute;zquez, coreograf&iacute;a<br>
+                                   Carlos Barraza, ingeniero de audio</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar Espect&aacute;culo</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Project Heading</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
+                                <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
+                                <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
+                                <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
+                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
+                                <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
+                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
+                                <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
+                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
+                                <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
+                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/agency.min.js"></script>
+
 </body>
+
 </html>
