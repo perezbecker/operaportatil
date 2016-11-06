@@ -1,0 +1,161 @@
+/*!
+ * Start Bootstrap - Agency v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+
+.text-primary {
+  color: #11af95;
+}
+
+a {
+  color: #11af95;
+}
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #06846f;
+}
+
+
+.btn-primary {
+  background-color: #11af95;
+  border-color: #11af95;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: white;
+  background-color: #06846f;
+  border-color: #11af95;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #11af95;
+  border-color: #11af95;
+}
+.btn-primary .badge {
+  color: #11af95;
+  background-color: white;
+}
+.btn-xl {
+  color: white;
+  background-color: #11af95;
+  border-color: #11af95;
+}
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+  color: white;
+  background-color: #06846f;
+  border-color: #11af95;
+}
+
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+  background-color: #11af95;
+  border-color: #11af95;
+}
+.btn-xl .badge {
+  color: #11af95;
+  background-color: white;
+}
+
+.navbar-custom .navbar-brand {
+  color: #11af95;
+  font-family: Cursive,"Helvetica Neue", Helvetica, Arial;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: #06846f;
+}
+
+.navbar-custom .navbar-toggle {
+  background-color: #11af95;
+  border-color: #11af95;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #11af95;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color: #11af95;
+}
+.navbar-custom .navbar-nav > .active > a {
+  color: white;
+  background-color: #11af95;
+}
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #06846f;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  background: rgba(17, 175, 149, 0.4);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: #11af95;
+}
+
+
+::-moz-selection {
+  text-shadow: none;
+  background: #11af95;
+}
+::selection {
+  text-shadow: none;
+  background: #11af95;
+}
+
+body {
+  webkit-tap-highlight-color: #11af95;
+}
